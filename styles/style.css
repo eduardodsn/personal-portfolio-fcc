@@ -3,6 +3,10 @@
 
 /* WELCOME */
 
+main {
+    overflow: hidden;
+}
+
 #welcome-section {
     width: 100%;
     height: 100vh;
@@ -10,7 +14,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     background-color: var(--dark-color) !important;
 }
 
@@ -75,6 +78,7 @@
     width: 40px;
     height: 40px;
     background-color: rgba(255,255,255, 0.15);
+    animation: up 2s infinite alternate;
 }
 
 
