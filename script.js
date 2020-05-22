@@ -1,7 +1,7 @@
 const ulSquares = document.querySelector("ul.squares")
 
 for (let i = 0; i < 21; i++) {
-    const li = document.createElement("li")
+    const li = document.createElement("li");
 
     const random = (min, max) => Math.random() * (max - min) + min;
 
@@ -12,13 +12,13 @@ for (let i = 0; i < 21; i++) {
 
     li.style.width = `${size}px`;
     li.style.height = `${size}px`;
-    li.style.bottom = `-${size}px`
+    li.style.bottom = `-${size}px`;
 
-    li.style.left = `${position}%`
+    li.style.left = `${position}%`;
 
-    li.style.animationDelay = `${delay}s`
-    li.style.animationDuration = `${duration}s`
-    li.style.animationTimingFunction = `cubic-bezier(${Math.random}, ${Math.random}, ${Math.random}, ${Math.random})`
+    li.style.animationDelay = `${delay}s`;
+    li.style.animationDuration = `${duration}s`;
+    li.style.animationTimingFunction = `cubic-bezier(${Math.random}, ${Math.random}, ${Math.random}, ${Math.random})`;
 
-    ulSquares.appendChild(li)
+    ulSquares.appendChild(li);
 }
