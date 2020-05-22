@@ -1,17 +1,7 @@
-*, html {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-}
+@import url("reset.css");
+@import url("animation.css");
 
-:root {
-    --dark-color: #252934;
-    --pink-color: #e71d36;
-    --blue-color: #2ec4b6;
-}
-
-/* Welcome */
+/* WELCOME */
 
 #welcome-section {
     width: 100%;
@@ -20,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     background-color: var(--dark-color) !important;
 }
 
@@ -29,6 +20,7 @@
     font-weight: 400;
     color: white;
     text-align: center;
+    animation: left_to_center 0.5s ease-out;
 }
 
 .highlight {
@@ -42,6 +34,7 @@
     margin-top: 20px;
     border: 2px solid white;
     transition: all 0.2s ease-out;
+    animation: right_to_center 0.5s ease-out;
 }
 
 #button a, #button a:active {
@@ -73,10 +66,22 @@
     transform: rotate(90deg);
 }
 
-/* About */
+/* SQUARES */
+
+.squares li {
+    display: block;
+    position: absolute;
+    bottom: -40px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,255,255, 0.15);
+}
+
+
+/* ABOUT */
 
 #about-section {
     width: 100%;
     height: 100vh;
-    background-color: white;
+    background-color: var(--pink-color);
 }

@@ -1,0 +1,17 @@
+/* ANIMATIONS */
+
+@keyframes left_to_center {
+    from {
+        transform: translateX(-1000px);
+    }to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes right_to_center {
+    from {
+        transform: translateX(1000px);
+    }to {
+        transform: translateX(0);
+    }
+}

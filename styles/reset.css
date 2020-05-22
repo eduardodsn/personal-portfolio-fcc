@@ -1,0 +1,14 @@
+/* RESET */
+
+*, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    --dark-color: #252934;
+    --pink-color: #EF476F;
+    --blue-color: #2EC4B6;
+}
