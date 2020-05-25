@@ -8,7 +8,12 @@
 }
 
 :root {
-    --dark-color: #252934;
+    --dark-color: #121214;
     --pink-color: #EF476F;
     --blue-color: #2EC4B6;
+    --green-color: #06D6A0; 
+}
+
+main {
+    overflow: hidden;
 }

@@ -1,6 +1,6 @@
 const ulSquares = document.querySelector("ul.squares")
 
-for (let i = 0; i < 21; i++) {
+for (let i = 0; i < 31; i++) {
     const li = document.createElement("li");
 
     const random = (min, max) => Math.random() * (max - min) + min;
