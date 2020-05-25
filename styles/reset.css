@@ -16,4 +16,5 @@
 
 main {
     overflow: hidden;
+    background-color: var(--dark-color);
 }

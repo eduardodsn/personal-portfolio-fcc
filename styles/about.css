@@ -13,6 +13,7 @@
 .title-container, .title-container > h1 {
     display: flex;
     justify-content: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 .title-container {
@@ -32,7 +33,6 @@
     justify-content: space-around;
     width: 100vw;
     height: 120vh;
-
 }
 
 .image-container, .text-container {
