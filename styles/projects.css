@@ -4,6 +4,7 @@
     background-color: var(--dark-color);
     font-family: 'Raleway', sans-serif;
     padding: 0 100px;
+    margin-bottom: 100px;
 }
 
 #projects-title {
