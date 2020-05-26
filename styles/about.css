@@ -8,7 +8,7 @@
     z-index: 1;
     font-family: 'Raleway', sans-serif;
     background-color: var(--dark-color);
-    padding: 0 130px;
+    padding: 0 100px;
 }
 
 .title-container, .title-container > h1 {

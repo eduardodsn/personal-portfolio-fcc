@@ -3,7 +3,7 @@
     height: 100%;
     background-color: var(--dark-color);
     font-family: 'Raleway', sans-serif;
-    padding: 0 130px;
+    padding: 0 100px;
 }
 
 #projects-title {
@@ -46,6 +46,7 @@
 }
 
 .project-box {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,12 +59,63 @@
     border-radius: 3px;
 }
 
-.project-box img {
-    width: 200px;
-    zoom: 1.7;
+.front-face {
+    opacity: 1;
 }
+
+.front-face img {
+    width: 200px;
+    zoom: 1.8;
+}
+
+.back-face, .back-face-title, .back-face-links, .back-face-links a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.back-face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(239, 71, 110, 0.685);
+    transition: all 0.2s ease-out;
+}
+
+.back-face-title {
+    width: 100%;
+    height: 50%;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.back-face-links {
+    width: 100%;
+    height: 50%;
+}
+
+.back-face-links a, .back-face-links a:active {
+    width: 140px;
+    height: 40px;
+    background-color: var(--dark-color);
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    margin: 0;
+}
+
 
 .project-box:hover {
     transform: scale(1.1);
-    
+}
+
+.project-box:hover .back-face{
+    opacity: 1;
 }
