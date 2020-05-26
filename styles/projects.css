@@ -54,9 +54,16 @@
     background-color: var(--dark-color);
     margin: 10px;
     overflow: hidden;
+    transition: all 0.2s ease-out;
+    border-radius: 3px;
 }
 
 .project-box img {
     width: 200px;
     zoom: 1.7;
+}
+
+.project-box:hover {
+    transform: scale(1.1);
+    
 }
