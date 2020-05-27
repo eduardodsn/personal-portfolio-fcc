@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #2B2B2C;
+}
+
+footer p {
+    font-size: 20px;
+    color: white;
+}

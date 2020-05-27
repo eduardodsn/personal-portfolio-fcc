@@ -9,6 +9,10 @@
     padding: 0 100px;
 }
 
+#contact-section .content-container {
+    margin-bottom: 30px;
+}
+
 #contact-section .image-container {
     display: flex;
     flex-direction: column;
@@ -27,9 +31,79 @@
 
 .social-media i {
     font-size: 30px;
-    color: var(--pink-color);
+    transition: all 0.2s ease-out;
+}
+
+#contact-section .text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-section .text-container h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input {
+    height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 10px;
+    outline: none;
+    padding-left: 10px;
+    background-color: #2B2B2C;
+    border: none;
+}
+
+#name-input, #email-input {
+    width: 60%;
+}
+
+#submit-input {
+    width: 30%;
+}
+
+#message-textarea {
+    width: 80%;
+    background-color: #2B2B2C;
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 
 .social-media i:hover {
-    transform: scale(1.1);
+    transform: scale(1.4);
+}
+
+#submit-input:hover {
+    background-color: #1A1A1A;
+    cursor: pointer;
+}
+
+#social-medias > div:nth-child(1) > a > i {
+    color: white;
+}
+
+#social-medias > div:nth-child(2) > a > i {
+    color: #1877f2;
+}
+
+#social-medias > div:nth-child(3) > a > i {
+    color: #c13584
+}
+
+#social-medias > div:nth-child(4) > a > i {
+    color: #25D366;
 }
