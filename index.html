@@ -244,32 +244,31 @@
             <div class="content-container">
                 <div class="image-container">
                     <img src="assets/contact.svg" alt="Imagem Contato">
+                    <div id="social-medias">
+                        <div class="social-media">
+                            <a href="https://github.com/eduardodsn" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/profile.php?id=100004038527282" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <div class="social-media">
+                            <a href="https://www.instagram.com/carlos_edsb/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="social-media">
+                            <a href="https://api.whatsapp.com/send?phone=000000000000&text=Ol%C3%A1,%20tudo%20bem?" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="text-container">
                     <h2>Entre em contato</h2>
-                    <form class="contact-form">
-                        <input type="text" id="name-input" placeholder="Digite seu nome" required>
-                        <input type="email" id="email-input" placeholder="Digite seu email" required>
-                        <textarea id="message-textarea" cols="40" rows="8" required></textarea>
+                    <form class="contact-form" autocomplete="off">
+                        <input type="text" id="name-input" placeholder="Digite seu nome" required autocomplete="false" name="hidden">
+                        <input type="email" id="email-input" placeholder="Digite seu email" required autocomplete="false" email="hidden">
+                        <textarea id="message-textarea" cols="40" rows="8" required autocomplete="false" name="hidden" placeholder="Escreva algo..."></textarea>
                         <input type="submit" id="submit-input" value="Enviar">
                     </form>
                 </div>
-            </div>
-            
-            <div id="social-medias">
-                <div class="social-media">
-                    <a href="https://github.com/eduardodsn" target="_blank"><i class="fab fa-github"></i></a>
-                </div>
-                <div class="social-media">
-                    <a href="https://www.facebook.com/profile.php?id=100004038527282" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                </div>
-                <div class="social-media">
-                    <a href="https://www.instagram.com/carlos_edsb/" target="_blank"><i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="social-media">
-                    <a href="https://api.whatsapp.com/send?phone=000000000000&text=Ol%C3%A1,%20tudo%20bem?" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                </div>
-            </div>
+            </div> 
         </section>
     </main>
 
