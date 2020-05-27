@@ -13,7 +13,7 @@
     margin-bottom: 30px;
 }
 
-#contact-section .image-container {
+#contact-section .image-container, .contact-form {
     display: flex;
     flex-direction: column;
 }
@@ -46,21 +46,19 @@
     margin-bottom: 50px;
 }
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
+.contact-form input, #message-textarea {
+    outline: none;
+    border: none;
+    font-size: 15px;
+    background-color: #2B2B2C;
+    color: white;
 }
 
 .contact-form input {
     height: 30px;
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    color: white;
     margin-bottom: 10px;
-    outline: none;
     padding-left: 10px;
-    background-color: #2B2B2C;
-    border: none;
 }
 
 #name-input, #email-input {
@@ -73,13 +71,8 @@
 
 #message-textarea {
     width: 80%;
-    background-color: #2B2B2C;
-    border: none;
     resize: none;
-    outline: none;
     padding: 10px;
-    color: white;
-    font-size: 15px;
     margin-bottom: 10px;
 }
 
