@@ -15,8 +15,13 @@
 
 #projects-title h1 {
     font-size: 45px;
-    color: white;
+    color: var(--gray-color);
     margin-bottom: 25px;
+    font-weight: 800;
+}
+
+#projects-title p {
+    display: none;
 }
 
 .fa-times {
